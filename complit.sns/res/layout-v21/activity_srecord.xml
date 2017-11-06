@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/recordbg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:id="@+id/horizontalScrollView" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <LinearLayout android:orientation="horizontal" android:background="#c22eff" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                    <ImageView android:id="@+id/shome" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/shome" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" android:elevation="2dp" />
+                    <ImageView android:id="@+id/sroutine" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/sroutine" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" android:elevation="2dp" />
+                    <ImageView android:id="@+id/srecord" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/srecord" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" android:elevation="2dp" />
+                    <ImageView android:id="@+id/whatsapp" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/swhatsapp" android:cropToPadding="false" android:onClick="open" android:elevation="2dp" />
+                    <ImageView android:id="@+id/snews" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/snews" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" android:elevation="2dp" />
+                    <ImageView android:id="@+id/result" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/routine" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" android:elevation="2dp" />
+                    <ImageView android:id="@+id/supdates" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/supdates" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" android:elevation="2dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x14901">
+                <Button android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RECORD" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+                <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PLAY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STOP" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <ImageView android:id="@+id/imageView11" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginTop="8dp" android:src="@drawable/record" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/setfav" android:id="@+id/setfav" android:background="#bbc46b" android:width="350dp" android:visible="true" android:title="Set Favorite" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/rmvfav" android:id="@+id/remove" android:background="#8698c4" android:width="350dp" android:visible="true" android:title="Remove Favorite" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/cancel" android:id="@+id/cancel" android:background="#bbc46b" android:width="350dp" android:visible="true" android:title="Cancel" android:showAsAction="ifRoom|withText" />
+</menu>

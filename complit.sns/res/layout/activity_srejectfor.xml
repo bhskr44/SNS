@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/stneer" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="onclickspinner">
+    <ScrollView android:id="@+id/scrollView9" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:orientation="horizontal" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+                <ImageView android:id="@+id/ahome" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/ahome" android:layout_weight="0.07" android:onClick="onclick" />
+                <ImageView android:id="@+id/aupload" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/aupload" android:layout_weight="0.07" android:onClick="onclick" />
+                <ImageView android:id="@+id/areject" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/areject" android:layout_weight="0.07" android:onClick="onclick" />
+                <ImageView android:id="@+id/aupdates" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/supdates" android:layout_weight="0.07" android:onClick="onclick" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/sreject" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="32dp" android:textStyle="bold" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textView14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rejection Pannel" android:textIsSelectable="false" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="2.Enter the roll no?" />
+            </LinearLayout>
+            <EditText android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|clip_horizontal|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/etrollno2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:hint="Enter Roll No." />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="32dp" android:textStyle="bold|italic" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sblock" android:background="#58777558" android:paddingLeft="20dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Block Student" android:onClick="onblock" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/role" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emptystring" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="menu_admin">res/menu/menu_admin.xml</menu>
+    <menu name="menu_faculty">res/menu/menu_faculty.xml</menu>
+    <menu name="menu_home">res/menu/menu_home.xml</menu>
+    <menu name="menu_student">res/menu/menu_student.xml</menu>
+    <menu name="popup">res/menu/popup.xml</menu>
+</resources>

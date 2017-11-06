@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/addfaculty" app:id="@+id/action_addfaculty" app:orderInCategory="1" app:title="Add Faculty" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/addstudent" app:id="@+id/action_addstudent" app:orderInCategory="3" app:title="Add Student" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_action_stat_share" app:id="@+id/action_share" app:orderInCategory="120" app:title="Share" app:showAsAction="always" />
+    <item app:icon="@drawable/logout" app:id="@+id/action_logout" app:orderInCategory="100" app:title="Logout" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/block" app:id="@+id/action_blockstudent" app:orderInCategory="4" app:title="Block Student" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/block" app:id="@+id/action_blockfaculty" app:orderInCategory="2" app:title="Block Faculty" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

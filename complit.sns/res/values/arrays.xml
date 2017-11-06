@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="branch">
+        <item>Select Branch</item>
+        <item>Computer Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Chemical Engineering</item>
+    </array>
+</resources>

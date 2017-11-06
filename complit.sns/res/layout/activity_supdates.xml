@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/supdatebg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <HorizontalScrollView android:id="@+id/horizontalScrollView" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <LinearLayout android:orientation="horizontal" android:background="#c22eff" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                    <ImageView android:id="@+id/shome" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/shome" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                    <ImageView android:id="@+id/sroutine" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/sroutine" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                    <ImageView android:id="@+id/srecord" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/srecord" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                    <ImageView android:id="@+id/whatsapp" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/swhatsapp" android:cropToPadding="false" android:onClick="open" />
+                    <ImageView android:id="@+id/snews" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/snews" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                    <ImageView android:id="@+id/result" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/routine" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                    <ImageView android:id="@+id/supdates" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/supdates" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1bd01">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="93dp" android:text="No new Updates found. !!" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

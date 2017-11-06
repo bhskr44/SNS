@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/democollege2" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0"
+    <LinearLayout android:orientation="horizontal" android:id="@+id/logo_section" android:layout_width="UNKNOWN_DATA_0x17401" android:layout_height="wrap_content" android:weightSum="1.0">
+        <ImageView android:id="@+id/logo1" android:paddingTop="0dp" android:paddingBottom="7dp" android:layout_width="UNKNOWN_DATA_0x7a01" android:layout_height="UNKNOWN_DATA_0x7a01" android:src="@drawable/logo1" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="30sp" android:textStyle="bold|italic" android:id="@+id/college_name" android:paddingLeft="10dp" android:paddingTop="2dp" android:paddingRight="0dp" android:layout_width="UNKNOWN_DATA_0xc401" android:layout_height="wrap_content" android:text="Assam Engineering Institute" android:textIsSelectable="false" />
+    </LinearLayout>
+    <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/hh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="About:" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Assam Engineering Institute, a premier technical institution of Assam was established in the year 1948. It is affiliated to the State Council for Technical Education. Its campus is located in Chandmari at the heart of Guwahati city. It is well connected to both the railway station (3 KM) and airport (28 KM). Moreover Guwahati is the gateway to the North-Eastern region of India, being well connected to all the other states like Mizoram, Manipur, Nagaland, Meghalaya and Arunachal Pradesh.   " />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="History" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Being one of the oldest technical Institute in the North East, Assam Engineering Institute placed an important role in the field of technical education in the region. The institute was first started as *Assam Civil Engineering School* and offered a diploma course in Civil Engineering. Gradually as the demand for technical personal in other fields was increasing, diploma courses were introduced in other disciplines: Electrical, Mechanical, Chemical, Electronics and Telecommunication and Computer." />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Admission" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="The polytechnics provide facilities for study in Diploma and Certificate Courses in Engineering and Technology after H.S.L.C. (10+). The main objective of the Polytechnic courses of studies is to produce technicians at supervisory level to meet the demand of Technical Manpower in various fields of development." />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textVie8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Departments" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textVew9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="The Departments available in this Institute are: 
+1.Computer Engineering 
+2.ETC Engineering
+3.Electrical Engineering
+4.Mechanical Engineering
+5.Chemical Engineering
+6.Civil Engineering
+" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/texVie8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contact Us" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textw9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="
+ Assam Engineering Institute 
+ M.D. Road, Chandmari, Guwahati, Assam- 781003
+ Telephone: 0361- 2550852, 0361- 2653690
+ Fax: 0361- 2550852
+ E-mail: etcaei@aei.org.in 
+ civilaei@yahoo.com
+ Visit: www.aei.org.in
+" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

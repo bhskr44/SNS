@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="complit.sns" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application android:theme="@style/AppTheme" android:label="SNS" android:icon="@mipmap/ic_launcher" android:debuggable="true" android:allowBackup="true">
+        <activity android:label="SNS" android:name="complit.sns.home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="SNS" android:name="complit.sns.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_guest" android:name="complit.sns.guest" android:parentActivityName="complit.sns.home">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.home" />
+        </activity>
+        <activity android:label="@string/title_activity_alogin" android:name="complit.sns.alogin" android:parentActivityName="complit.sns.home">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.home" />
+        </activity>
+        <activity android:label="@string/title_activity_aafterlogin" android:name="complit.sns.aafterlogin" android:parentActivityName="complit.sns.alogin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.alogin" />
+        </activity>
+        <activity android:label="@string/title_activity_upload" android:name="complit.sns.upload" android:parentActivityName="complit.sns.aafterlogin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.aafterlogin" />
+        </activity>
+        <activity android:label="@string/title_activity_reject" android:name="complit.sns.reject" android:parentActivityName="complit.sns.aafterlogin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.aafterlogin" />
+        </activity>
+        <activity android:label="@string/title_activity_srejectfor" android:name="complit.sns.srejectfor" android:parentActivityName="complit.sns.reject">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.reject" />
+        </activity>
+        <activity android:label="@string/title_activity_frejectfor" android:name="complit.sns.frejectfor" android:parentActivityName="complit.sns.reject">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.reject" />
+        </activity>
+        <activity android:label="@string/title_activity_flogin" android:name="complit.sns.flogin" android:parentActivityName="complit.sns.home">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.home" />
+        </activity>
+        <activity android:label="@string/title_activity_slogin" android:name="complit.sns.slogin" android:parentActivityName="complit.sns.home">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.home" />
+        </activity>
+        <activity android:label="@string/title_activity_shome" android:name="complit.sns.shome" />
+        <activity android:label="@string/title_activity_record" android:name="complit.sns.record" android:parentActivityName="complit.sns.shome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.shome" />
+        </activity>
+        <activity android:label="@string/title_activity_srecord" android:name="complit.sns.srecord" android:parentActivityName="complit.sns.shome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.shome" />
+        </activity>
+        <activity android:label="@string/title_activity_supdates" android:name="complit.sns.supdates" android:parentActivityName="complit.sns.shome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.shome" />
+        </activity>
+        <activity android:label="@string/title_activity_sroutine" android:name="complit.sns.sroutine" android:parentActivityName="complit.sns.shome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.shome" />
+        </activity>
+        <activity android:label="@string/title_activity_sixsemrcse" android:name="complit.sns.sixsemrcse" android:parentActivityName="complit.sns.sroutine">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.sroutine" />
+        </activity>
+        <activity android:label="@string/title_activity_rcsetue" android:name="complit.sns.rcsetue" android:parentActivityName="complit.sns.sroutine">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.sroutine" />
+        </activity>
+        <activity android:label="@string/title_activity_rcsewed" android:name="complit.sns.rcsewed" android:parentActivityName="complit.sns.sroutine">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.sroutine" />
+        </activity>
+        <activity android:label="@string/title_activity_rcsethu" android:name="complit.sns.rcsethu" android:parentActivityName="complit.sns.sroutine">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.sroutine" />
+        </activity>
+        <activity android:label="@string/title_activity_rcsefri" android:name="complit.sns.rcsefri" android:parentActivityName="complit.sns.sroutine">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.sroutine" />
+        </activity>
+        <activity android:label="@string/title_activity_rcsesat" android:name="complit.sns.rcsesat" android:parentActivityName="complit.sns.sroutine">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.sroutine" />
+        </activity>
+        <activity android:label="@string/title_activity_fregister" android:name="complit.sns.fregister" android:parentActivityName="complit.sns.flogin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.flogin" />
+        </activity>
+        <activity android:label="@string/title_activity_fhome" android:name="complit.sns.fhome" />
+        <activity android:label="@string/title_activity_addstudent" android:name="complit.sns.addstudent" android:parentActivityName="complit.sns.aafterlogin">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.aafterlogin" />
+        </activity>
+        <activity android:label="@string/title_activity_result" android:name="complit.sns.result" android:parentActivityName="complit.sns.shome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.shome" />
+        </activity>
+        <activity android:label="@string/title_activity_snews" android:name="complit.sns.snews" android:parentActivityName="complit.sns.shome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.shome" />
+        </activity>
+        <activity android:label="@string/title_activity_froutine" android:name="complit.sns.froutine" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_ftue" android:name="complit.sns.ftue" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_fwed" android:name="complit.sns.fwed" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_fthu" android:name="complit.sns.fthu" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_ffri" android:name="complit.sns.ffri" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_fsat" android:name="complit.sns.fsat" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_fnews" android:name="complit.sns.fnews" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+        <activity android:label="@string/title_activity_updates" android:name="complit.sns.updates" android:parentActivityName="complit.sns.fhome">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="complit.sns.fhome" />
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/democollege2" android:background="@drawable/background" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+    <ScrollView android:id="@+id/scrollView2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+                <ImageView android:id="@+id/imageView10" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/ahome" android:layout_weight="0.07" android:onClick="onclick" />
+                <ImageView android:id="@+id/ivupload" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/aupload" android:layout_weight="0.07" android:onClick="onclick" />
+                <ImageView android:id="@+id/ivreject" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/areject" android:layout_weight="0.07" android:onClick="onclick" />
+                <ImageView android:id="@+id/ivupdate" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4701" android:src="@mipmap/supdates" android:layout_weight="0.07" android:onClick="onclick" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageView3" android:layout_width="UNKNOWN_DATA_0xb701" android:layout_height="UNKNOWN_DATA_0x8701" android:layout_marginLeft="15dp" android:src="@drawable/admin" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="35dp" android:textStyle="bold" android:id="@+id/textView7" android:layout_width="UNKNOWN_DATA_0xa501" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="25dp" android:text="Welcome Home" />
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You can also manage your social page from here." />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/facebook" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ivfacebook" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="80dp" android:src="@mipmap/facebook" android:onClick="onclick" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="20dp" android:textStyle="bold" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvfacebook" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Facebook" android:onClick="onclick" android:textIsSelectable="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/twitter" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ivtwitter" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="80dp" android:src="@mipmap/twitter" android:onClick="onclick" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="20dp" android:textStyle="bold" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvtwitter" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Twitter" android:onClick="onclick" android:textIsSelectable="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/shome" android:background="@drawable/moja1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <HorizontalScrollView android:id="@+id/horizontalScrollView" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:background="#c22eff" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <ImageView android:id="@+id/shome" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/shome" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                        <ImageView android:id="@+id/sroutine" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/sroutine" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                        <ImageView android:id="@+id/srecord" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/srecord" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                        <ImageView android:id="@+id/whatsapp" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/swhatsapp" android:cropToPadding="false" android:onClick="open" />
+                        <ImageView android:id="@+id/snews" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/snews" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                        <ImageView android:id="@+id/result" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/routine" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                        <ImageView android:id="@+id/supdates" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@mipmap/supdates" android:cropToPadding="false" android:layout_weight="0.2" android:onClick="onrender" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="40dp" android:id="@+id/textView16" android:background="#8097dd76" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="Hi," />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="38dp" android:id="@+id/role" android:background="#8097dd76" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_weight="4.87" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="40dp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textView16" android:background="#8097dd76" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="Welcome Home" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/textView16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emptystring" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="#54fe9eff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your Login Details" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/textView19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Username:" />
+                    <EditText android:id="@+id/susern" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/textView20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Password:" />
+                    <EditText android:id="@+id/spassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:ems="10" android:layout_weight="1.0" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@+id/textView22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter Password to change existing:" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/textView22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Password:" />
+                    <EditText android:id="@+id/updatespass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/changeoldpass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Change Old Password" android:foregroundGravity="top|bottom|center_vertical|fill_vertical|center|fill" android:onClick="changeoldpass" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rrole" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emptystring" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

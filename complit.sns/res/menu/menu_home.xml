@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/contact" app:id="@+id/action_contact" app:orderInCategory="50" app:title="Contact Us" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_action_stat_share" app:id="@+id/action_share" app:orderInCategory="120" app:title="Share" app:showAsAction="always" />
+</menu>

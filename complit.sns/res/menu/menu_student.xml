@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_action_stat_share" app:id="@+id/action_share" app:orderInCategory="120" app:title="Share" app:showAsAction="always" />
+    <item app:icon="@drawable/routine" app:id="@+id/action_routine1" app:orderInCategory="100" app:title="Routine" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/record" app:id="@+id/action_record" app:orderInCategory="200" app:title="Record" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/logout" app:id="@+id/action_logoutt" app:orderInCategory="270" app:title="Logout" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>
